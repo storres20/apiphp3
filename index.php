@@ -8,7 +8,11 @@ header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers
 // Conecta a la base de datos  con usuario, contraseña y nombre de la BD
 //$servidor = "localhost"; $usuario = "root"; $contrasenia = ""; $nombreBaseDatos = "empleados";
 //$servidor = "localhost"; $usuario = "root"; $contrasenia = "123456"; $nombreBaseDatos = "empleados";
-$host = "db"; $username = "root"; $passwd = "123456"; $dbname = "empleados";
+//$host = "db"; $username = "root"; $passwd = "123456"; $dbname = "empleados";
+$host = "bldpkw0nxqpgu53p6ydv-mysql.services.clever-cloud.com";
+$username = "u6fuvrnqdlmt4van";
+$passwd = "qaDR1m7qsuPHxMWPMS9S";
+$dbname = "bldpkw0nxqpgu53p6ydv";
 //$conexionBD = new mysqli($servidor, $usuario, $contrasenia, $nombreBaseDatos);
 $conexionBD = new mysqli($host, $username, $passwd, $dbname);
 
