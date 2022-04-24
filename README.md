@@ -1,6 +1,23 @@
 
-<h1 align="center">API php3</h1>
-<p align="center"><img src="https://user-images.githubusercontent.com/81504385/160201775-5a7e1cb5-2756-484e-8ced-67dc07782de7.png"/></p> 
+<h1 align="center">API - php</h1>
+
+https://apiphp3.herokuapp.com/
+
+```json
+{
+  {
+   "id": "1",
+   "nombre": "pedro",
+   "correo": "pedro@gmail.com"
+  },
+  ...
+  {
+   "id": "13",
+   "nombre": "carrot",
+   "correo": "carrot@gmail.com"
+  }
+}
+```
 
 ## Tabla de contenidos:
 ---
@@ -14,14 +31,31 @@
 ## Descripción y contexto
 ---
 
-> "Application Programming Interface - API" para datos nombre y correo
+💻📱 **API - php** 💻📱 es una **API** que atiende las peticiones de datos que provienen desde el lado del cliente (Frontend) 💻💻💻
+
+La API realiza consultas a la tabla "empleados" de la Base de Datos y envia las respuestas al cliente, respecto a los datos de los clientes (nombre, correo).
+
+Puedes acceder a la API a traves de: <a href="https://apiphp3.herokuapp.com/" target="_blank">https://apiphp3.herokuapp.com/</a>
 
 ## Guía de usuario
 ---
-Tiene codigo para enlazar a Base de datos en Clever Cloud - MYSQL y tiene comandos que permiten el CRUD
+Tiene codigo en PHP para enlazar a la Base de datos en Clever Cloud con el motor de MYSQL
 
-![image](https://user-images.githubusercontent.com/81504385/160201637-19720df7-2ba3-4044-8837-9271ecd352c5.png)
-
+```json
+{
+  {
+   "id": "1",
+   "nombre": "pedro",
+   "correo": "pedro@gmail.com"
+  },
+  ...
+  {
+   "id": "13",
+   "nombre": "carrot",
+   "correo": "carrot@gmail.com"
+  }
+}
+```
  	
 ## Guía de instalación
 ---
