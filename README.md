@@ -81,13 +81,7 @@ Tecnologias utilizadas
 |  |  | Mysql |
 
 
-## 🌱 Beta version
-Pagina web
+### 💻Pagina web: 📱
 <ul>
-<li> Coming Soon </li>
-</ul>
-
-## 🎨 Maquetado - Figma
-<ul>
-<li> Coming Soon </li>
+<li> API: <a href="https://apiphp3.herokuapp.com/" target="_blank">https://apiphp3.herokuapp.com/</a> </li>
 </ul>
